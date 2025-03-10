@@ -1,5 +1,10 @@
+# everything is ignored by default
 /*
 
+# a specific folder or directory is ignored 
+__pycache__/
+
+# files or folders are uploaded/uploaded to github
 !/src/
 !/.gitignore
 !/main.py

@@ -7,9 +7,7 @@ from keras import models, layers
 from tensorflow.keras.utils import plot_model #type: ignore
 
 def binary_classification():
-    """
-        This fuction contain every neural network
-    """
+
     (train_data, train_labels), (test_data, test_labels) = imdb.load_data(num_words=10000)
 
     print(train_data[0])
